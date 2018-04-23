@@ -1,0 +1,110 @@
+$lightblue: #4cb1ca
+$blue: #39a0b9
+$darkblue: #0b4b5a
+$green: #7db122
+$gray: #656565
+$lightgray: #eff1f0
+$lightgraytwo: #b7b7b7
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic')
+@font-face 
+	font-family: "Myriad"
+	src: url("/fonts/8143.otf") format("opentype")
+*
+	box-sizing: border-box
+	padding: 0
+	margin: 0
+	font-family: "Myriad"
+.main_wrapper
+	width: 100%
+	overflow: hidden
+.main_header
+	width: 100%
+	.header_top
+		background-color: $lightblue
+		display: flex
+		justify-content: flex-end
+		.header_nav
+			display: flex
+			flex-wrap: nowrap
+			padding: 15px	
+			li
+				display: inline-block
+				border-left: 1px solid #fff
+				padding: 0px 10px
+				font-size: 0
+				a
+					text-decoration: none
+					color: #fff
+					font-size: 13px
+					line-height: 1
+			li:first-child
+				border-left: 0
+	.header_bottom
+		width: 100%
+		padding: 0px 12.5%
+		display: flex
+		flex-wrap: nowrap
+		justify-content: space-between
+		align-items: center
+		height: 100px	
+		.header_bottom_nav
+			display: flex
+			flex-wrap: nowrap
+			color: $gray
+			align-items: center
+			.logo
+				font-size: 24px	
+				letter-spacing: -.25px
+			.header_bottom_nav_item
+				margin-left: 20px
+				font-size: 0
+				display: inline-block
+				a
+					font-size: 14px
+					text-decoration: none
+					color: $gray
+					text-transform: uppercase
+					line-height: 1.2
+		.header_bottom_other
+			display: flex
+			flex-wrap: nowrap
+			justify-content: space-between
+			align-items: center
+			.search_form
+				margin-right: 15px	
+				form
+					.search
+						width: 170px
+						height: 30px
+						border: 1px solid $lightgraytwo
+						font-size: 0
+						input[type="search"] 
+							border: none
+							outline: none
+							-webkit-appearance: none
+							width: 140px
+							height: 100%
+							display: inline-block
+							vertical-align: top
+						input[type="submit"]
+							width: 20px
+							display: inline-block
+							height: 30px
+							border: none
+							cursor: pointer
+							background: url(/img/c3.png) no-repeat 50% 50%
+			.circle	
+				width: 36px
+				height: 36px
+				border-radius: 50%
+				background-color: $green
+				margin-right: 3px
+				img
+					position: relative
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					width: 50%	
+			p
+				color: $gray
+				margin-left: 8px	

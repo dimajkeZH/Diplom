@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic");
+@font-face {
+  font-family: "Myriad";
+  src: url("/fonts/8143.otf") format("opentype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Myriad"; }
+
+.main_wrapper {
+  width: 100%;
+  overflow: hidden; }
+
+.main_header {
+  width: 100%; }
+  .main_header .header_top {
+    background-color: #4cb1ca;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .main_header .header_top .header_nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      padding: 15px; }
+      .main_header .header_top .header_nav li {
+        display: inline-block;
+        border-left: 1px solid #fff;
+        padding: 0px 10px;
+        font-size: 0; }
+        .main_header .header_top .header_nav li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 13px;
+          line-height: 1; }
+      .main_header .header_top .header_nav li:first-child {
+        border-left: 0; }
+  .main_header .header_bottom {
+    width: 100%;
+    padding: 0px 12.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100px; }
+    .main_header .header_bottom .header_bottom_nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      color: #656565;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .main_header .header_bottom .header_bottom_nav .logo {
+        font-size: 24px;
+        letter-spacing: -.25px; }
+      .main_header .header_bottom .header_bottom_nav .header_bottom_nav_item {
+        margin-left: 20px;
+        font-size: 0;
+        display: inline-block; }
+        .main_header .header_bottom .header_bottom_nav .header_bottom_nav_item a {
+          font-size: 14px;
+          text-decoration: none;
+          color: #656565;
+          text-transform: uppercase;
+          line-height: 1.2; }
+    .main_header .header_bottom .header_bottom_other {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .main_header .header_bottom .header_bottom_other .search_form {
+        margin-right: 15px; }
+        .main_header .header_bottom .header_bottom_other .search_form form .search {
+          width: 170px;
+          height: 30px;
+          border: 1px solid #b7b7b7;
+          font-size: 0; }
+          .main_header .header_bottom .header_bottom_other .search_form form .search input[type="search"] {
+            border: none;
+            outline: none;
+            -webkit-appearance: none;
+            width: 140px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top; }
+          .main_header .header_bottom .header_bottom_other .search_form form .search input[type="submit"] {
+            width: 20px;
+            display: inline-block;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            background: url(/img/c3.png) no-repeat 50% 50%; }
+      .main_header .header_bottom .header_bottom_other .circle {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: #7db122;
+        margin-right: 3px; }
+        .main_header .header_bottom .header_bottom_other .circle img {
+          position: relative;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 50%; }
+      .main_header .header_bottom .header_bottom_other p {
+        color: #656565;
+        margin-left: 8px; }
