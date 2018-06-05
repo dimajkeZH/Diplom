@@ -168,6 +168,8 @@
         background-color: #eff1f0;
         margin: 5px;
         min-height: 300px; }
+        .main_content .main_items .main_item .main_item_img img {
+          width: 100%; }
       .main_content .main_items .main_item .main_item_text {
         display: -webkit-box;
         display: -ms-flexbox;
