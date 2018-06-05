@@ -168,7 +168,20 @@
         background-color: #eff1f0;
         margin: 5px;
         min-height: 300px;
-        width: 100%; }
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
         .main_content .main_items .main_item .main_item_img img {
           width: 100%; }
       .main_content .main_items .main_item .main_item_text {
