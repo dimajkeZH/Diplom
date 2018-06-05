@@ -254,7 +254,10 @@
       width: 65%;
       height: calc(33.33% - 12px);
       border-radius: 10px;
-      background-color: #d9e2ed; }
+      background-color: #d9e2ed;
+      overflow: hidden; }
+      .product_content .other_photo .other_photo_item img {
+        width: 100%; }
   .product_content .main_photo {
     background-color: #eff1f0;
     width: 38%;
@@ -262,6 +265,8 @@
     margin: 0 20px;
     font-size: 30px;
     text-align: center; }
+    .product_content .main_photo img {
+      width: 100%; }
   .product_content .product_info {
     background-color: #d9e2ed;
     height: 570px;
