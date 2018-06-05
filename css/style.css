@@ -281,7 +281,8 @@
     height: 570px;
     margin: 0 20px;
     font-size: 30px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .product_content .main_photo img {
       width: 100%; }
   .product_content .product_info {
