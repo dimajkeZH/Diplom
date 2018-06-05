@@ -107,4 +107,405 @@ $lightgraytwo: #b7b7b7
 					width: 50%	
 			p
 				color: $gray
-				margin-left: 8px	
+				margin-left: 8px
+.main_content
+	width: 100%
+	padding: 0px 12.5%
+	display: flex	
+	font-size: 0
+	justify-content: center	
+	align-items: center	
+	.main_items
+		width: calc(75% - 10px)
+		font-size: 0
+		display: flex
+		flex-wrap: wrap	
+		justify-content: space-between
+		margin-right: 10px	
+		.main_item
+			width: calc(33.33% - 20px)
+			display: inline-block
+			box-shadow: 0px 0px 5px 0px #eaeaea
+			margin: 50px 0px
+			.main_item_img
+				background-color: $lightgray
+				margin: 5px
+				min-height: 300px
+			.main_item_text
+				display: flex
+				align-items: center	
+				justify-content: space-between
+				padding: 5px 10px 25px 10px
+				.main_item_text_info
+					p:nth-child(1)
+						font-size: 14px
+					p:nth-child(2)
+						font-size: 18px
+						color: $green
+				.main_item_text_img
+					height: 50px
+					width: 50px	
+					border-radius: 50%
+					background: $green
+					i
+						font-size: 25px	
+						color: #fff
+						position: relative	
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50% )
+	.main_add
+		width: calc(25%	- 10px)
+		height: 100%
+		box-shadow: 0px 0px 5px 0px #eaeaea
+		font-size: 10px	
+		margin-left: 10px
+.product_content
+	width: 100%
+	padding: 70px 12.5% 100px 12.5%
+	display: flex	
+	font-size: 0
+	justify-content: center	
+	align-items: center	
+	.other_photo
+		width: 21%
+		height: 570px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex	
+		flex-wrap: wrap
+		justify-content: flex-end
+
+		.other_photo_item
+			width: 65%
+			height: calc(33.33% - 12px)
+			border-radius: 10px	
+			
+			background-color: #d9e2ed
+
+	.main_photo
+		background-color: #eff1f0
+		width: 38%
+		height: 570px
+		margin: 0 20px
+		font-size: 30px	
+		text-align: center
+
+	.product_info
+		background-color: #d9e2ed
+		height: 570px
+		width: 34%
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex	
+		padding: 10px
+		flex-wrap: wrap
+		justify-content: center
+		align-content: space-between
+		.product_info_text
+			text-align: center	
+			width: 100%	
+			p,ul
+				font-size: 14px	
+				list-style-type: none
+			p
+				margin-bottom: 10px	
+		.product_info_add
+			width: 100%	
+
+			button
+				width: 100%	
+				background-color: #fca67f
+				cursor: pointer
+				border: 0px
+				outline: 0px
+				height: 50px
+				font-size: 24px	
+.login_wrapper
+	width: 100%
+	padding: 70px 12.5% 100px 12.5%
+	
+	.login_nav
+		width: 50%
+		margin: 0px 25%
+		
+		height: 40px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		align-items: center
+		.login_nav_item
+			width: 50%
+			text-align: center
+			position: relative
+			height: 100%
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: center
+			align-items: center
+			border: 1px solid $gray
+			&.active
+				background-color: #ff48a5
+				border: 0
+				div
+					display: block
+			p
+				font-size: 22px
+			div
+				width: 0
+				height: 0
+				border-left: 10px solid transparent
+				border-right: 10px solid transparent
+				border-top: 10px solid #ff48a5
+				position: absolute
+				transform: translate(-50%,100%)
+				bottom: 0px
+				left: 50%
+				display: none
+
+	.login_content
+		.login_content_item
+			display: none
+			justify-content: center
+			align-items: center
+			padding-top: 70px
+			&.active
+				display: flex
+			.login, .registration
+				width: 50%
+				.forma_group
+					width: 100%
+					padding: 0px 40px
+					margin-bottom: 20px
+					p
+						margin-left: 5px
+						font-size: 24px
+						margin-bottom: 10px
+					input
+						width: 100%
+						border: 1px solid #d7d7d7
+						outline: 0px
+						height: 40px
+						font-size: 24px
+						color: $gray
+						padding: 0px 10px
+				.button
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					justify-content: space-between
+					align-items: center
+					flex-wrap: nowrap
+					button
+						background-color: #d9e2ed
+						width: 50%
+						border: 0
+						outline: 0
+						height: 40px
+						font-size: 24px
+						cursor: pointer
+					button:hover
+						background-color: #ff48a5
+					a
+						color: #000
+						font-size: 24px
+			.registration
+				width: 100%
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				flex-wrap: wrap
+				justify-content: center
+				.forma_group
+					width: 50%
+				.check
+					width: 100%
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					flex-wrap: nowrap
+					input
+						width: 10%
+				.radio
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					justify-content: center
+					align-items: center
+					flex-wrap: wrap
+					p
+						width: 100%
+					.radio_button
+						width: 50%
+						label
+							display: -webkit-flex
+							display: -moz-flex
+							display: -ms-flex
+							display: -o-flex
+							display: flex
+							align-items: center
+							justify-content: center
+
+							input 
+								width: 50%
+				.button
+					width: 50%
+					button
+						width: 100%
+
+
+.main_footer
+	width: 100%	
+	overflow: hidden
+	.footer_top
+		width: 100%	
+		padding: 20px 12.5%
+		background-color: $lightblue
+		color: #fff
+		display: flex	
+		.footer_top_item
+			width: 50%	
+			text-align: left
+			display: flex
+			justify-content: flex-start
+			align-items: center	
+			.footer_top_item_img
+				width: 65px	
+				height: 65px	
+				border-radius: 50%
+				background-color: #fff
+				transform: scale(-1, 1)
+				display: inline-block	
+				i
+					font-size: 35px	
+					color: $lightblue
+					position: relative	
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50% )
+			.footer_top_item_text
+				display: inline-block
+				margin-left: 30px	
+	.footer_content
+		width: 100%	
+		padding: 45px 12.5%
+		background-color: $blue
+		color: #fff
+		display: flex
+		justify-content: space-between	
+		font-family: Open Sans
+		.footer_content_item
+			width: calc(25% - 10px)
+			.footer_content_item_title
+				font-size: 20px
+				color: #fff	
+				text-transform: uppercase
+				line-height: 1.2
+				padding-bottom: 30px
+				text-align: center	
+				font-family: Open Sans
+			p
+				font-size: 10px
+				img
+					display: inline-block	
+					vertical-align: middle	
+					margin-left: 10px	
+			.twitter_item	
+				width: 100%	
+				display: flex
+				margin-bottom: 20px	
+				.twitter_item_img
+					width: 45px	
+					height: 45px
+					border-radius: 50%
+					background-color: #fff
+					display: inline-block	
+					margin: 0px 15px
+					i
+						font-size: 25px	
+						color: $blue
+						position: relative	
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50% )
+				.twitter_item_text
+					display: inline-block
+					width: calc(100% - 75px)
+					font-size: 13px	
+					font-family: Open Sans
+					span
+						color: #9ae2f4
+			.footer_information
+				display: flex	
+				align-items: center
+				flex-wrap: wrap
+				margin-left: 20px	
+				li
+					text-decoration: none
+					list-style-type: none
+					font-family: Open Sans
+					font-size: 13px
+					margin-bottom: 10px	
+				li::before
+					content: ""
+					display: inline-block	
+					height: 6px	
+					width: 6px	
+					border-bottom: 	2px solid #fff
+					border-right: 	2px solid #fff
+					transform: rotate( -45deg)
+					margin-right: 20px
+			.contact_information
+				display: flex	
+				align-items: center
+				flex-wrap: wrap
+				margin-left: 20px	
+				li
+					text-decoration: none
+					list-style-type: none
+					font-family: Open Sans
+					font-size: 13px
+					margin-bottom: 10px	
+					width: 100%
+			.contact_img
+				margin-left: 20px
+				img
+					margin-right: 5px
+	.footer_bottom
+		display: flex
+		background-color: $darkblue
+		justify-content: space-between
+		color: #8adcf0
+		width: 100%
+		padding: 25px 14%
+		.footer_text
+			display: inline-block
+			font-size: 13px
+		.footer_nav
+			display: inline-block
+			a
+				font-size: 13px
+				border-right: 1px solid #8adcf0
+				text-decoration: none
+				color: #8adcf0
+				padding-right: 15px	
