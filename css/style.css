@@ -132,6 +132,23 @@
       .main_header .header_bottom .header_bottom_other p {
         color: #656565;
         margin-left: 8px; }
+  .main_header .header_catalog {
+    background-color: #39a0b9;
+    padding: 10px 12.5%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .main_header .header_catalog .header_catalog_item {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none; }
 
 .main_content {
   width: 100%;
