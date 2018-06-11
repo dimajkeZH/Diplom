@@ -126,10 +126,7 @@ $lightgraytwo: #b7b7b7
 .main_content
 	width: 100%
 	padding: 0px 12.5%
-	display: flex	
 	font-size: 0
-	justify-content: center	
-	align-items: center	
 	.main_items
 		width: calc(75% - 10px)
 		font-size: 0
@@ -185,6 +182,90 @@ $lightgraytwo: #b7b7b7
 		box-shadow: 0px 0px 5px 0px #eaeaea
 		font-size: 10px	
 		margin-left: 10px
+	.car_main
+		width: 100%
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		padding-bottom: 80px	
+		.car_main_item
+			width: 33.33%
+			.car_main_item_number
+				font-size: 20px
+				padding-top: 50px	
+				text-align: center	
+			.car_main_item_title
+				font-size: 18px
+				padding-bottom: 40px		
+			.car_main_item_info
+				width: 100%
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				justify-content: space-between
+				div
+					width: calc(50% - 10px)
+					p
+						font-size: 18px
+				.car_main_item_img
+					background-color: $lightgray
+					height: 250px
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex	
+					justify-content: center
+					align-content: center	
+					align-items: center	
+					overflow: hidden
+					img
+						width: 100%
+			.car_main_item_button
+				float: right
+				width: 100px
+				height: 40px
+				cursor: pointer
+				text-decoration: none
+				p
+					font-size: 18px
+					background-color: red	
+					text-align: center
+					border-radius: 5px
+					padding: 5px
+					color: #fff
+	.car_foot
+		width: 100%		
+		.car_foot_prise
+			margin-left: 50%	
+			width: 50%	
+			padding-bottom: 50px	
+			p
+				font-size: 18px	
+				padding-bottom: 5px	
+		.car_foot_button
+			float: right	
+			width: 150px
+			height: 40px
+			cursor: pointer
+			text-decoration: none
+			padding-bottom: 120px	
+			p
+				font-size: 18px
+				background-color: green	
+				text-align: center
+				border-radius: 5px
+				padding: 5px
+				color: #fff
+				width: 150px
+
+
+
 .product_content
 	width: 100%
 	padding: 70px 12.5% 100px 12.5%

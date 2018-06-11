@@ -153,16 +153,7 @@
 .main_content {
   width: 100%;
   padding: 0px 12.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  font-size: 0; }
   .main_content .main_items {
     width: calc(75% - 10px);
     font-size: 0;
@@ -238,6 +229,102 @@
     box-shadow: 0px 0px 5px 0px #eaeaea;
     font-size: 10px;
     margin-left: 10px; }
+  .main_content .car_main {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 80px; }
+    .main_content .car_main .car_main_item {
+      width: 33.33%; }
+      .main_content .car_main .car_main_item .car_main_item_number {
+        font-size: 20px;
+        padding-top: 50px;
+        text-align: center; }
+      .main_content .car_main .car_main_item .car_main_item_title {
+        font-size: 18px;
+        padding-bottom: 40px; }
+      .main_content .car_main .car_main_item .car_main_item_info {
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .main_content .car_main .car_main_item .car_main_item_info div {
+          width: calc(50% - 10px); }
+          .main_content .car_main .car_main_item .car_main_item_info div p {
+            font-size: 18px; }
+        .main_content .car_main .car_main_item .car_main_item_info .car_main_item_img {
+          background-color: #eff1f0;
+          height: 250px;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -ms-flex-line-pack: center;
+          align-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          overflow: hidden; }
+          .main_content .car_main .car_main_item .car_main_item_info .car_main_item_img img {
+            width: 100%; }
+      .main_content .car_main .car_main_item .car_main_item_button {
+        float: right;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        text-decoration: none; }
+        .main_content .car_main .car_main_item .car_main_item_button p {
+          font-size: 18px;
+          background-color: red;
+          text-align: center;
+          border-radius: 5px;
+          padding: 5px;
+          color: #fff; }
+  .main_content .car_foot {
+    width: 100%; }
+    .main_content .car_foot .car_foot_prise {
+      margin-left: 50%;
+      width: 50%;
+      padding-bottom: 50px; }
+      .main_content .car_foot .car_foot_prise p {
+        font-size: 18px;
+        padding-bottom: 5px; }
+    .main_content .car_foot .car_foot_button {
+      float: right;
+      width: 150px;
+      height: 40px;
+      cursor: pointer;
+      text-decoration: none;
+      padding-bottom: 120px; }
+      .main_content .car_foot .car_foot_button p {
+        font-size: 18px;
+        background-color: green;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        color: #fff;
+        width: 150px; }
 
 .product_content {
   width: 100%;
